@@ -595,6 +595,7 @@ section.our-scc {
 .cls-rm-card{
     width: 100%;
     max-width: 500px;
+    min-width: 280px;
     margin: 20px;
 }
 .cls-rm-card  img{
@@ -661,6 +662,7 @@ section.our-scc {
 .f-sect-card{
     width: 100%;
     max-width: 500px;
+    min-width: 280px;
     margin: 20px;
 }
 .f-sect-card img{
@@ -691,9 +693,61 @@ section.our-scc {
     background-color: #ffffff;
     box-shadow: 0px 15px 44px rgba(13, 15, 28, 0.12);
 }
-.f-info p{
-}
 /* == || FEATURES == */
+
+
+
+
+
+
+/* == TOOLS == */
+.tls-sect{
+    width: 100%;
+}
+.tls-contain{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 30px;
+}
+.tls-card {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px;
+    min-width: 280px;
+}
+.tls-card h2{
+    width: 100%;
+    max-width: 280px;
+    color: #2F327D;
+    margin: 80px 0px 10px;
+}
+.tls-card h2 u{
+    color: #00CBB8;
+}
+.tls-card p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000000;
+    margin: 10px 0px;
+}
+.tls-card img{
+    width: 100%;
+}
+.tls-btn{
+    outline: none;
+    border: 2px solid #49BBBD;
+    border-radius: 30px;
+    height: 60px;
+    width: 260px;
+    color: #49BBBD;
+    background-color: #ffffff;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+/* == || TOOLS == */
 
 
 
