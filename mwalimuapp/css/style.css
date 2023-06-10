@@ -429,6 +429,7 @@ section.our-scc {
 }
 .p-sect-card{
     height: fit-content;
+    min-height: 240px;
     width: 100%;
     max-width: 340px;
     min-width: 280px;
@@ -450,6 +451,12 @@ section.our-scc {
 .p-sect-card span.icon.one{
     background-color: #5B72EE;
 }
+.p-sect-card span.icon.two{
+    background-color: #00CBB8;
+}
+.p-sect-card span.icon.three{
+    background-color: #29B9E7;
+}
 .p-sect-card h4{
     font-size: 20px;
     font-weight: 500;
@@ -457,6 +464,7 @@ section.our-scc {
     color: #2F327D;
     text-align: center;
     margin: 0px 0px 10px;
+    min-height: 60px;
 }
 .p-sect-card p{
     font-size: 16px;
