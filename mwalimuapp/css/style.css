@@ -116,9 +116,12 @@ header {
 .header-scroll.sticky .logo a {
     color: #011c27;
 }
-
+.header-scroll.sticky .logo img{ 
+    filter: invert(1);
+    mix-blend-mode: multiply;   
+}
 .header-scroll.sticky .active-link {
-    color: #22b981;
+    color: #22b981 !important;
 }
 
 .header-scroll.sticky .color:hover {
@@ -128,7 +131,6 @@ header {
 .header-scroll .logo span {
     font-size: 24px;
     font-weight: 600;
-    font-family: 'LooneyTunes Tilt BT';
     color: #ffffff;
     padding: 0px 4px 0px;
 }
@@ -549,6 +551,149 @@ section.our-scc {
     background-color: #23BDEE;
 }
 /* == || WHAT == */
+
+
+/* == CLASSROOM == */
+.cls-rm{
+    width: 100%;
+}
+.cls-rm-contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+}
+.cls-rm-card{
+    position: relative;
+    z-index: 0;
+}
+.cls-rm-card h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #2F327D;
+    margin: 0px 0px 10px;
+}
+.cls-rm-card h3 u{
+    color: #00CBB8;
+}
+.cls-rm-card p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000000;
+    margin: 10px 0px;
+}
+.cls-rm-card a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000000;
+    text-decoration: underline;
+}
+.cls-rm-card{
+    width: 100%;
+    max-width: 500px;
+    margin: 20px;
+}
+.cls-rm-card  img{
+    width: 100%;
+    position: relative;
+    z-index: 5;
+}
+.cls-rm-card .color-box.one{
+    z-index: 1;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    height: 120px !important;
+    width: 120px !important;
+    border-radius: 20px;
+    background-color: #23BDEE;
+}
+.cls-rm-card .color-box.two{
+    z-index: 1;
+    position: absolute;
+    bottom: -10px;
+    right: -20px;
+    height: 140px !important;
+    width: 160px !important;
+    border-radius: 20px;
+    background-color: #33EFA0
+    ;
+}
+/* == || CLASSROOM == */
+
+/* == FEATURES == */
+.f-sect{
+    width: 100%;
+}
+.f-sect-contain{
+    padding: 10px 30px;
+}
+.f-sect-contain h3.title{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #2F327D;
+    text-align: center;
+}
+.f-sect-contain h3 u{
+    color: #00CBB8 !important;
+}
+.f-sect-contain p.title-desc{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+.f-sect-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+}
+.f-sect-card{
+    width: 100%;
+    max-width: 500px;
+    margin: 20px;
+}
+.f-sect-card img{
+    width: 100%;
+}
+.f-sect-card h2{
+    color: #2F327D;
+    margin: 0px 0px 10px;
+}
+.f-sect-card h2 u{
+    color: #00CBB8;
+}
+.f-info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px 0px 14px;
+}
+.f-info span{
+    height: 60px;
+    width: 60px;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 0px 14px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0px 15px 44px rgba(13, 15, 28, 0.12);
+}
+.f-info p{
+}
+/* == || FEATURES == */
 
 
 
