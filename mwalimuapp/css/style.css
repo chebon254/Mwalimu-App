@@ -349,16 +349,16 @@ section.our-scc {
     font-weight: 700;
     line-height: 30px;
     text-align: center;
-    margin: 10px auto 0px;
+    margin: 10px auto 10px;
 }
 
 .scc-contain p.title-desc {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 28px;
     text-align: center;
-    max-width: 700px;
-    margin: 10px auto 0px;
+    max-width: 800px;
+    margin: 10px auto 30px;
 }
 
 .scc-cards {
@@ -387,11 +387,11 @@ section.our-scc {
 }
 
 .scc-card p {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 28px;
     text-align: center;
-    margin: 10px auto 0px;
+    margin: 10px auto 20px;
 }
 
 /* == || SUCCESS == */
@@ -406,11 +406,12 @@ section.our-scc {
 }
 
 .p-sect-contain h3.title {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 30px;
     color: #2F327D;
     text-align: center;
+    margin: 10px auto 10px;
 }
 
 .p-sect-contain h3 u {
@@ -418,9 +419,9 @@ section.our-scc {
 }
 
 .p-sect-contain p.title-desc {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 28px;
     color: #000000;
     text-align: center;
     max-width: 700px;
@@ -444,18 +445,19 @@ section.our-scc {
     margin: 20px;
     text-align: center;
     box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
-    padding: 20px;
+    padding: 60px 20px;
     border-radius: 20px;
 }
 
 .p-sect-card span.icon {
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: -70px auto 20px;
+    margin: -100px auto 20px;
 }
 
 .p-sect-card span.icon.one {
@@ -473,7 +475,7 @@ section.our-scc {
 .p-sect-card h4 {
     font-size: 20px;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 28px;
     color: #2F327D;
     text-align: center;
     margin: 0px 0px 10px;
@@ -483,7 +485,7 @@ section.our-scc {
 .p-sect-card p {
     font-size: 16px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 28px;
     color: #000000;
     text-align: center;
     margin: 10px 0px 0px;
@@ -501,11 +503,12 @@ section.our-scc {
 }
 
 .w-sect-contain h3.title {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 30px;
     color: #2F327D;
     text-align: center;
+    margin: 40px 0px 10px;
 }
 
 .w-sect-contain h3 u {
@@ -515,11 +518,11 @@ section.our-scc {
 .w-sect-contain p.title-desc {
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 28px;
     color: #000000;
     text-align: center;
-    max-width: 700px;
-    margin: auto;
+    max-width: 800px;
+    margin: 10px auto 20px;
 }
 
 .w-sect-cards {
@@ -625,9 +628,9 @@ section.our-scc {
 }
 
 .cls-rm-card p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 28px;
     color: #000000;
     margin: 10px 0px;
 }
@@ -687,11 +690,12 @@ section.our-scc {
 }
 
 .f-sect-contain h3.title {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 30px;
     color: #2F327D;
     text-align: center;
+    margin: 0px 0px 10px;
 }
 
 .f-sect-contain h3 u {
@@ -701,11 +705,11 @@ section.our-scc {
 .f-sect-contain p.title-desc {
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 28px;
     color: #000000;
     text-align: center;
     max-width: 700px;
-    margin: auto;
+    margin: 10px auto 20px;
 }
 
 .f-sect-cards {
@@ -929,8 +933,8 @@ section.our-scc {
     height: 0px;
     overflow: hidden;
     width: 290px;
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 26px;
     color: #000000;
     font-weight: normal;
 }
@@ -995,7 +999,7 @@ section.our-scc {
 }
 
 .exp-books .list .bk-card .info .title {
-    font-size: 16px;
+    font-size: 18px;
     color: #000000;
     letter-spacing: 1px;
 }
@@ -1384,6 +1388,8 @@ footer{
     padding: 10px 20px;
     margin: 0px 10px;
     color: #B2B3CF;
+    font-size: 16px;
+    line-height: 28px;
 }
 .top-copyright a:hover{
     color: #ffffff;
@@ -1391,6 +1397,8 @@ footer{
 .bottom-copyright{
     text-align: center;
     color: #B2B3CF;
+    font-size: 16px;
+    line-height: 28px;
 }
 /* == || FOOTER == */
 
