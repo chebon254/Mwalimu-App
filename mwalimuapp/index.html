@@ -54,7 +54,7 @@
     <!-- == HEADER == -->
     <header class="header-scroll">
         <nav id="nav-bar">
-            <div class="nav-container container">
+            <div class="nav-container contain">
                 <div class="logo">
                     <a href="index.html" class="logo" style="font-weight: Bold;"><img src="css/img/Mwalimu Logo.png"
                             alt="Mwalimu app logo" width="200px"></a>
@@ -63,13 +63,16 @@
                     <div class="cancel">
                         <span class="cancel-btn"><i class="fas fa-times"></i></span>
                     </div>
-                    <a class="active-link" href="#">Home</a>
-                    <a href="#">Online</a>
-                    <a href="#e">Physical</a>
-                    <a href="#">Resources</a>
-                    <a href="#">School</a>
-                    <a href="#">Chat</a>
-                    <a href="#">About Us</a>
+                    <a href="#top">Home</a>
+                    <a href="#scc">Online</a>
+                    <a href="#pack">Physical</a>
+                    <a href="#resource">Resources</a>
+                    <a href="#sch">School</a>
+                    <a href="#news">news</a>
+                    <div class="nav-btns">
+                        <button class="navl-btn">Login</button>
+                        <button class="navs-btn">Sign Up</button>
+                    </div>
                 </div>
                 <div class="menu-bar">
                     <span class="menu-btn"><i class="fas fa-bars"></i></span>
@@ -78,13 +81,13 @@
         </nav>
     </header>
     <main>
-        <section class="bn">
-            <div class="bn-contain container">
+        <section class="bn" id="top">
+            <div class="bn-contain contain">
                 <div class="bn-txt">
                     <h1><u>Studying</u> Online is now much easier</h1>
                     <p>Mwalimu App is an interesting platform that will teach you in more an interactive way</p>
                     <div class="bn-btns">
-                        <button class="btn-join">Join for free</button>
+                        <button class="btn-join" id="scc">Join for free</button>
                         <button class="btn-watch"><i class="fa-solid fa-circle-play"></i> Watch how it works</button>
                     </div>
                 </div>
@@ -94,7 +97,7 @@
             </div>
         </section>
         <section class="our-scc">
-            <div class="scc-contain container">
+            <div class="scc-contain contain">
                 <h1 class="title">Our Success</h1>
                 <p class="title-desc">Thanks to our cutting-edge online platform, our academy is leading the way in empowering learners and educators, boasting remarkable success in interactive education and engagement.</p>
                 <div class="scc-cards">
@@ -112,7 +115,7 @@
                     </div>
                     <div class="scc-card">
                         <h1>26</h1>
-                        <p>Chief experts</p>
+                        <p id="pack">Chief experts</p>
                     </div>
                 </div>
             </div>
@@ -141,7 +144,7 @@
                             </svg>
                         </span>
                         <h4>Online Billing, Invoicing, & Contracts</h4>
-                        <p>Simple and secure control of your organization’s financial and legal transactions. Send
+                        <p id="resource">Simple and secure control of your organization’s financial and legal transactions. Send
                             customized invoices and contracts</p>
                     </div>
                     <div class="p-sect-card">
@@ -229,7 +232,7 @@
                     <div class="w-sect-card two">
                         <div class="w-card-txt">
                             <h2>FOR STUDENTS</h2>
-                            <button class="w-btn two">Enter access code</button>
+                            <button class="w-btn two" id="sch">Enter access code</button>
                         </div>
                     </div>
                 </div>
@@ -517,7 +520,7 @@
                                 <div class="testimony-info">
                                     <p>"Thank you so much for your help. It's exactly what I've been looking for. You won't regret it. It really saves me time and effort. TOTC is exactly what our business has been lacking."</p>
                                     <div class="testifier">
-                                        <span class="name">Gloria Rose</span>
+                                        <span id="news" class="name">Gloria Rose</span>
                                         <div class="ratings">
                                             <div class="stars">
                                                 <i class="fa-solid fa-star"></i>

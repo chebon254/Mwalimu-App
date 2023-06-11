@@ -87,7 +87,6 @@ html {
 }
 
 /* == || SCROLL BAR == */
-.container,
 .contain {
     margin: auto;
     max-width: 1200px;
@@ -112,9 +111,8 @@ header {
 .header-scroll.sticky a {
     color: #011c27;
 }
-
-.header-scroll.sticky .logo a {
-    color: #011c27;
+.header-scroll.sticky .links a:hover{
+    color: #00CBB8;
 }
 
 .header-scroll.sticky .logo img {
@@ -148,6 +146,11 @@ header {
 .header-scroll.sticky .menu-btn {
     color: #0e3155;
 }
+.header-scroll.sticky .nav-btns button.navl-btn{
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #7ECCCE;
+}
 
 
 nav {
@@ -176,7 +179,7 @@ nav {
 .links a {
     font-size: 16px;
     font-weight: 500;
-    color: #ffffff;
+    color: #EBF5FF;
     padding: 10px 10px;
 }
 
@@ -187,12 +190,9 @@ nav {
     padding: 10px 10px;
 }
 
-.links .active-link {
-    color: #ffffff !important;
-}
 
 .header .links .active-link {
-    color: #ffffff;
+    color: #EBF5FF;
 }
 
 .links a:hover {
@@ -232,7 +232,34 @@ nav {
     color: #ffffff;
     padding: 10px 20px;
 }
-
+.nav-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px 0px 40px;
+}
+.nav-btns button{
+    height: 40px;
+    width: 120px;
+    border: 0px;
+    border-radius: 20px;
+    margin: 0px 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.nav-btns button.navl-btn{
+    background-color: #ffffff;
+    color: #000000;
+}
+.nav-btns button:hover{
+    border: 2px solid #ffffff;
+    background-color: #7ECCCE;
+    color: #ffffff;
+}
+.nav-btns button.navs-btn{
+    background-color: #7ECCCE;
+    color: #ffffff;
+}
 /* == || HEADER == */
 
 
