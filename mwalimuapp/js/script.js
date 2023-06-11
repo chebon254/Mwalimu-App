@@ -44,3 +44,43 @@ cancelBtn.onclick = ()=>{
     menuBtn.classList.remove("hide");
 }
 
+
+
+let old = $('.bk-card').get(0);
+$('.bk-card').click(function(){
+  if(old!=null && $(old).hasClass('open'))
+    $(old).toggleClass('open');
+   $(this).toggleClass('open');
+   old = this;
+
+})
+
+/* == Testimonial == */
+var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("testimony");
+        var dots = document.getElementsByClassName("test-dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" dot-change", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " dot-change";
+
+        }
+/* == || Testimonial == */
