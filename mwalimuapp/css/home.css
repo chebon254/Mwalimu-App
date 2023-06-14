@@ -1,139 +1,110 @@
-.exp-books .flex-row {
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-  }
-  
-  .exp-books .flex-column {
-    display: flex;
-    flex-flow: column;
-  }
-  
-  .exp-books .center {
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .exp-books .list {
-    border-radius: 3px;
-    overflow: hidden;
-  }
-  
-  .exp-books .list .bk-card {
-    cursor: pointer;
-    min-width: 700px;
-    margin-bottom: 10px;
-    perspective: 600px;
-    transition: all 0.1s;
-    background-color: #1c1c30;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    height: 90px;
-  }
-  
-  .exp-books .list .bk-card .bottom {
-    height: 0px;
-    overflow: hidden;
-    width: 200px;
-    font-size: 12px;
-    color: #777;
-    font-weight: normal;
-  }
-  
-  .exp-books .list .bk-card.open {
-    padding: 30px;
-    height: auto;
-  }
-  
-  .exp-books .list .bk-card.open .bottom {
-    margin-top: 10px;
-    height: 100%;
-    overflow: visible;
-  }
-  
-  .exp-books .list .bk-card.open .book {
-    transform: rotateY(50deg);
-    box-shadow: -10px 10px 10px 2px rgba(0, 0, 0, .2), -2px 0px 0px 0px #888;
-    transition: all 0.5s;
-    transition-delay: 0.05s;
-  }
-  
-  .exp-books .list .bk-card.open .info {
-    transform: translate(0, -10px);
-  }
-  
-  .exp-books .list .bk-card.open .members {
-    padding: 15px 20px;
-    border-radius: 4px;
-    align-self: flex-start;
-  }
-  
-  .exp-books .list .bk-card button.simple {
-    cursor: pointer;
-    color: #CCC;
-    border: none;
-    outline: none;
-    border-radius: 4px;
-    background-color: #1ea94b;
-    padding: 15px 20px;
-    font-family: 'Montserrat';
-    font-weight: bold;
-    transition: all 0.1s;
-  }
-  
-  .exp-books .list .bk-card button.simple:hover {
-    box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, .3);
-    transform: translate(0, -2px);
-  }
-  
-  .exp-books .list .bk-card .book {
-    transition: all 0.5s;
-    width: 120px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
-    overflow: hidden;
-  }
-  
-  .exp-books .list .bk-card .info {
-    transition: all 0.2s;
-    min-width: 200px;
-    padding: 0px 30px;
-    font-family: 'Montserrat';
-    font-weight: bold;
-  }
-  
-  .exp-books .list .bk-card .info .title {
-    font-size: 1em;
-    color: #FFF;
-    letter-spacing: 1px;
-  }
-  
-  .exp-books .list .bk-card .info .author {
-    font-size: 12px;
-    font-weight: normal;
-    color: #888;
-  }
-  
-  .exp-books .list .bk-card .group {
-    margin-left: auto;
-  }
-  
-  .exp-books .list .bk-card .members {
-    transition: all 0.1s;
-    padding: 40px;
-    font-family: 'Montserrat';
-    color: #CCC;
-    background-color: #18181f;
-  }
-  
-  .exp-books .list .bk-card .members .current {
-    font-weight: bold;
-    margin-right: 10px;
-  }
-  
-  .exp-books .list .bk-card .members .max {
-    opacity: 0.5;
-    margin-left: 10px;
-  }
+.home-bn{
+  padding: 90px 0px 0px;
+  background-color: #FBFDFF;
+}
+.home-bn-contain{
+  padding: 40px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.hm-bn-txt{
+  width: 100%;
+  max-width: 520px;
+  padding: 10px 0px 20px;
+}
+.hm-bn-txt h3{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 38px;
+  color: #000000;
+  margin: 0px 0px 10px;
+}
+.hm-bn-txt h3 u{
+  color: #49BBBD !important;
+}
+.hm-bn-txt h1{
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #2F327D;
+  margin: 0px 0px 10px;
+}
+.hm-bn-txt p{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 38px;
+  color: #696984;
+  margin: 10px 0px;
+}
+.hm-bn-txt button{
+  outline: none;
+  border: 0px;
+  background-color: #49BBBD;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 20px;
+  margin: 10px 0px;
+  padding: 10px 20px;
+}
+.hm-bn-img{
+  width: 100%;
+  max-width: 520px;
+  padding: 10px 0px 20px;
+}
+.hm-bn-img img{
+  width: 100%;
+}
+section.rd-bg{
+  background-color: #ffffff;
+  padding: 40px 0px;
+}
+.rd-bg-contain{
+  padding: 0px 20px;
+}
+.rd-bg-contain h3.rd-title{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 38px;
+  color: #000000;
+  margin: 10px 0px 20px;
+}
+.rd-bg-cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.rd-bg.card{
+  width: 280px;
+  height: 280px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+.rd-bg.card img{
+  width: 280px;
+  height: 280px;
+  position: relative;
+  z-index: 1;
+}
+.rd-bg-cd-title{
+  height: 44px;
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: #ffffffcc;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
+  font-weight: 700;
+  color: #000000cc;
+}

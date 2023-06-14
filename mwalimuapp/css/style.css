@@ -101,18 +101,22 @@ header {
     z-index: 5;
     position: fixed;
 }
-
+header.logged-in{
+    background-color: #ffffff;
+}
 .header-scroll.sticky {
     background-color: #ffffff;
     box-shadow: 6px 6px 24px #00000033;
     transition: all ease 0.4s;
 }
 
-.header-scroll.sticky a {
-    color: #011c27;
+.header-scroll.sticky a, 
+header.logged-in .links a{
+    color: #011c27 !important;
 }
-.header-scroll.sticky .links a:hover{
-    color: #00CBB8;
+.header-scroll.sticky .links a:hover,
+header.logged-in .links a:hover{
+    color: #00CBB8 !important;
 }
 
 .header-scroll.sticky .logo img {
@@ -164,7 +168,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 15px;
+    padding: 10px 30px;
 }
 
 .nav-container .logo a img {
@@ -174,6 +178,8 @@ nav {
 .links {
     height: 55px;
     width: fit-content;
+    position: relative;
+    z-index: 0;
 }
 
 .links a {
@@ -181,6 +187,7 @@ nav {
     font-weight: 500;
     color: #EBF5FF;
     padding: 10px 10px;
+
 }
 
 .header .links a {
@@ -211,7 +218,56 @@ nav {
     font-weight: 500;
     margin-left: 10px;
 }
-
+.pf-drp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0px 10px;
+}
+.profile-drop {
+    position: relative;
+    z-index: 0;
+}
+.profile-image{
+    padding: 0px 20px 0px 0px;
+    height: 50px;
+    width: 70px;
+}
+.profile-image img{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.profile-drop .dropbtn{
+    width: fit-content;
+    padding: 0px 5px;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #011c27;
+}
+.pf-drop-cnt{
+    position: absolute;
+    display: none;
+    height: fit-content;
+    width: 180px;
+    padding: 10px 0px;
+    top: 72.5px;
+    right: 0px;
+    box-shadow: 2px 2px 12px #00000033;
+    z-index: 10;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+.pf-drop-cnt a{
+    padding: 20px 20px !important;
+    color: #000000;
+    width: 100%;
+}
+.show {
+    display: block;
+  }
 @keyframes navAnimateBottom {
     from {
         transform: translateY(5px);
