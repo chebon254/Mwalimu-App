@@ -7,7 +7,7 @@
     font-size: 40px;
     font-weight: 800;
     line-height: 50px;
-    color: #49BBBD;
+    color: #F48C06;
     text-align: center;
 }
 
@@ -37,7 +37,7 @@
     font-size: 14px;
     font-weight: 700;
     line-height: 20px;
-    color: #49BBBD;
+    color: #F48C06;
 }
 
 .price-amount {
@@ -88,13 +88,13 @@
     padding: 10px 20px;
     background-color: #ffffff;
     border: 1px solid #ADADAD;
-    color: #49BBBD;
+    color: #F48C06;
     margin: 104px 0px 0px;
 }
 
 .feature-button button.middle {
     padding: 10px 20px;
-    background-color: #49BBBD;
+    background-color: #F48C06;
     border: 0px;
     color: #ffffff;
     margin: 8px 0px 0px;
@@ -106,7 +106,7 @@
     padding: 10px 20px;
     background-color: #ffffff;
     border: 1px solid #ADADAD;
-    color: #49BBBD;
+    color: #F48C06;
 }
 
 .online-coach-contain {
@@ -136,7 +136,7 @@
     height: 50px;
     width: fit-content;
     padding: 10px 20px;
-    background-color: #49BBBD;
+    background-color: #F48C06;
     color: #ffffff;
     border-radius: 10px;
     border: 0px;
@@ -278,7 +278,7 @@ section.acc-choice{
     background-color: #29B9E7;
 }
 .app-btn button:nth-child(2){
-    background-color: #49BBBD;
+    background-color: #F48C06;
 }
 .app-btn button svg{
     margin: 0px 10px 0px 0px;
@@ -328,6 +328,6 @@ section.acc-choice{
     outline: none;
     border-radius: 10px;
     border: 0px;
-    background-color: #49BBBD;
+    background-color: #F48C06;
     padding: 0px 20px;
 }
