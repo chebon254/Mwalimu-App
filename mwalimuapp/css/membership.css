@@ -1,0 +1,333 @@
+.membership-bn {
+    background-color: #ffffff;
+    padding: 110px 0px 90px;
+}
+
+.membership-bn-contain h1.title {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    color: #49BBBD;
+    text-align: center;
+}
+
+.membership-pricing {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px 0px 10px;
+}
+
+.pricing-card {
+    width: fit-content;
+    max-width: 340px;
+    padding: 15px;
+    height: fit-content;
+    margin: 10px 5px;
+}
+
+.pricing-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px 10px;
+}
+
+.pricing-top span {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #49BBBD;
+}
+
+.price-amount {
+    padding: 0px 0px 10px;
+}
+
+.price-amount h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #2D3436;
+}
+
+.price-amount h2 span {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color: #2D3436;
+    padding: 0px 10px;
+}
+
+.pricing-features .feature {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 0px;
+}
+
+.pricing-features .feature svg {
+    margin: 0px 12px 0px 0px;
+}
+
+.pricing-features .feature span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #2D3436;
+}
+
+.feature-button button {
+    outline: none;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.feature-button button.ends {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 1px solid #ADADAD;
+    color: #49BBBD;
+    margin: 104px 0px 0px;
+}
+
+.feature-button button.middle {
+    padding: 10px 20px;
+    background-color: #49BBBD;
+    border: 0px;
+    color: #ffffff;
+    margin: 8px 0px 0px;
+    border: 0px;
+}
+
+.feature-button button.ends-two {
+    margin: 56px 0px 0px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 1px solid #ADADAD;
+    color: #49BBBD;
+}
+
+.online-coach-contain {
+    border-radius: 20px;
+    width: 100%;
+    padding: 20px 30px;
+    background-color: #252641;
+    text-align: center;
+}
+
+.online-coach-contain h2 {
+    text-align: center;
+    color: #ffffff;
+    margin: 20px 0px 10px;
+}
+
+.online-coach-contain p {
+    text-align: center;
+    color: #ffffff;
+    margin: 10px 0px 10px;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
+
+.online-coach-contain button {
+    height: 50px;
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: #49BBBD;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: 700;
+    margin: 20px 0px 0px;
+}
+
+
+.online-coaching-accordion {
+    padding: 60px 0px;
+}
+
+.online-c-acc-contain h2.title {
+    text-align: center;
+    font-weight: 600;
+    margin: 0px 0px 30px;
+}
+
+.coaching-accordion {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    padding: 20px 5px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.coaching-accordion {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.coaching-accordion svg{
+    margin: 0px 10px 0px 0px;
+}
+.active {
+    border-bottom: 1px solid #00000000;
+}
+
+
+.coaching-panel {
+    padding: 0 5px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-bottom: 1px solid #696984;
+}
+.coaching-panel p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #696984;
+    line-height: 28px;
+    margin: 20px 0px;
+}
+section.students-say{
+    background-color: #9DCCFF;
+    padding: 60px 0px 120px;
+}
+.students-say-contain h3.title{
+    font-weight: 500;
+    margin: 0px 0px 20px;
+    color: #000000;
+}
+.students-says{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.student-say {
+    height: fit-content;
+    width: 280px;
+    padding: 15px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.student-say img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+.student-say h4{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.student-say p{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 10px 0px;
+    color: #696984;
+}
+section.acc-choice{
+    padding: 90px 0px;
+}
+.acc-choice-contain{
+    padding: 0px 20px;
+    position: relative;
+}
+.app-download{
+    position: absolute;
+    padding: 30px 20px;
+    background-color: #252641;
+    border-radius: 20px;
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: -145px;
+}
+.app-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.app-btn button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    margin: 0px 10px;
+    color: #ffffff;
+    outline: none;
+    border-radius: 10px;
+    border: 0px;
+    padding: 0px 20px;
+}
+.app-btn button:nth-child(1){
+    background-color: #29B9E7;
+}
+.app-btn button:nth-child(2){
+    background-color: #49BBBD;
+}
+.app-btn button svg{
+    margin: 0px 10px 0px 0px;
+}
+
+.acc-apply{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0px 0px;
+}
+.t-apply{
+    width: 100%;
+    max-width: 520px;
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px #00000033;
+    border-radius: 20px;
+}
+.t-apply img{
+    width: 100%;
+    border-radius: 20px;
+}
+.t-apply h3{
+    font-weight: 500;
+    color: #252641;
+    margin: 0px 0px 10px;
+}
+.t-apply p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #696984;
+    line-height: 28px;
+    margin: 10px 0px 10px;
+}
+.t-apply .btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.t-apply .btns button{
+    height: 50px;
+    width: 200px;
+    margin: 0px 10px;
+    color: #ffffff;
+    outline: none;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #49BBBD;
+    padding: 0px 20px;
+}
