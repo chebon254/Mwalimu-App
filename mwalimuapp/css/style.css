@@ -116,12 +116,11 @@ header.logged-in .links a{
 }
 .header-scroll.sticky .links a:hover,
 header.logged-in .links a:hover{
-    color: #00CBB8 !important;
+    color: #F75B0B !important;
 }
 
 .header-scroll.sticky .logo img {
-    filter: invert(1);
-    mix-blend-mode: multiply;
+    margin-right: 1px;
 }
 
 .header-scroll.sticky .active-link {
@@ -153,7 +152,7 @@ header.logged-in .links a:hover{
 .header-scroll.sticky .nav-btns button.navl-btn{
     background-color: #ffffff;
     color: #000000;
-    border: 2px solid #7ECCCE;
+    border: 2px solid #F48C06;
 }
 
 
@@ -171,9 +170,12 @@ nav {
     padding: 10px 30px;
 }
 
-.nav-container .logo a img {
+.nav-container .logo a img.blended {
     margin-right: 1px;
+    filter: brightness(0) invert(1);
+    mix-blend-mode: screen;
 }
+
 
 .links {
     height: 55px;
@@ -309,11 +311,12 @@ nav {
 }
 .nav-btns button:hover{
     border: 2px solid #ffffff;
-    background-color: #7ECCCE;
+    background-color: #F48C06;
     color: #ffffff;
 }
 .nav-btns button.navs-btn{
-    background-color: #7ECCCE;
+    border: 2px solid #F48C06;
+    background-color: #F48C06;
     color: #ffffff;
 }
 /* == || HEADER == */
@@ -324,7 +327,7 @@ nav {
 section.bn {
     min-height: 700px;
     width: 100%;
-    background-color: #49BBBD;
+    background-color: #10376D;
     padding: 120px 0px 0px;
     border-bottom-left-radius: 50% 25%;
     border-bottom-right-radius: 50% 25%;
@@ -401,7 +404,7 @@ section.bn {
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
-    color: #252641;
+    color: #ffffff;
     outline: none;
 }
 
@@ -464,7 +467,7 @@ section.our-scc {
     line-height: 80px;
     text-align: center;
     margin: 10px auto 0px;
-    background: -webkit-linear-gradient(360deg, #136CB5, #49BBBD);
+    background: -webkit-linear-gradient(360deg, #136CB5, #10376D);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -498,7 +501,7 @@ section.our-scc {
 }
 
 .p-sect-contain h3 u {
-    color: #00CBB8 !important;
+    color: #F75B0B !important;
 }
 
 .p-sect-contain p.title-desc {
@@ -548,7 +551,7 @@ section.our-scc {
 }
 
 .p-sect-card span.icon.two {
-    background-color: #00CBB8;
+    background-color: #F75B0B;
 }
 
 .p-sect-card span.icon.three {
@@ -595,7 +598,7 @@ section.our-scc {
 }
 
 .w-sect-contain h3 u {
-    color: #00CBB8 !important;
+    color: #F75B0B !important;
 }
 
 .w-sect-contain p.title-desc {
@@ -707,7 +710,7 @@ section.our-scc {
 }
 
 .cls-rm-card h3 u {
-    color: #00CBB8;
+    color: #F75B0B;
 }
 
 .cls-rm-card p {
@@ -782,7 +785,7 @@ section.our-scc {
 }
 
 .f-sect-contain h3 u {
-    color: #00CBB8 !important;
+    color: #F75B0B !important;
 }
 
 .f-sect-contain p.title-desc {
@@ -820,7 +823,7 @@ section.our-scc {
 }
 
 .f-sect-card h2 u {
-    color: #00CBB8;
+    color: #F75B0B;
 }
 
 .f-info {
@@ -878,7 +881,7 @@ section.our-scc {
 }
 
 .tls-card h2 u {
-    color: #00CBB8;
+    color: #F75B0B;
 }
 
 .tls-card p {
@@ -895,11 +898,11 @@ section.our-scc {
 
 .tls-btn {
     outline: none;
-    border: 2px solid #49BBBD;
+    border: 2px solid #10376D;
     border-radius: 30px;
     height: 60px;
     width: 260px;
-    color: #49BBBD;
+    color: #10376D;
     background-color: #ffffff;
     margin: 20px 0px;
     cursor: pointer;
@@ -1056,7 +1059,7 @@ section.our-scc {
     border: none;
     outline: none;
     border-radius: 4px;
-    background-color: #00CBB8;
+    background-color: #F75B0B;
     padding: 10px 20px;
     font-weight: bold;
     transition: all 0.1s;
@@ -1090,7 +1093,7 @@ section.our-scc {
 .exp-books .list .bk-card .info .author {
     font-size: 12px;
     font-weight: 400;
-    color: #00CBB8;
+    color: #F75B0B;
 }
 
 .exp-books .list .bk-card .group {
@@ -1184,8 +1187,8 @@ section.our-scc {
     height: 50px;
     width: 250px;
     background-color: #ffffff;
-    border: 2px solid #49BBBD;
-    color: #49BBBD;
+    border: 2px solid #10376D;
+    color: #10376D;
     border-radius: 25px;
     display: flex;
     align-items: center;
@@ -1329,7 +1332,7 @@ section.our-scc {
     height: 30px;
     width: fit-content;
     border-radius: 15px;
-    background-color: #49BBBD;
+    background-color: #10376D;
     padding: 0px 10px;
     color: #ffffff;
     font-size: 14px;
@@ -1403,6 +1406,8 @@ footer{
 .footer-img img{
     width: 220px;
     margin: 10px 20px 0px;
+    filter: brightness(0) invert(1);
+    mix-blend-mode: screen;
 }
 .f-top-txt{
     font-size: 16px;
@@ -1451,7 +1456,7 @@ footer{
     border: 0px;
     margin: 10px;
     outline: none;
-    background-color: #49BBBD;
+    background-color: #10376D;
     color: #ffffff;
     padding: 10px 30px;
 }

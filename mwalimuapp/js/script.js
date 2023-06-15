@@ -27,9 +27,11 @@ const header = document.querySelector(".header-scroll");
 const menuBtn = document.querySelector(".menu-btn");
 const cancelBtn = document.querySelector(".cancel-btn");
 const menu = document.querySelector(".links");
+const logo = document.querySelector(".logo-image");
 // Onscroll Change Nav Bar Background
 window.onscroll = ()=>{
     this.scrollY > 20 ? header.classList.add("sticky") : header.classList.remove("sticky");
+    this.scrollY > 20 ? logo.classList.remove("blended") : logo.classList.add("blended");
 }
 /* == ANIMATION CSS == */
 function reveal() {
@@ -93,11 +95,7 @@ var slideIndex = 1;
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";  
         }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" dot-change", "");
-        }
         slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " dot-change";
 
         }
 /* == || Testimonial == */
